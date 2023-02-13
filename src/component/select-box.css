@@ -1,0 +1,80 @@
+#inputBox {
+
+    border: none;
+    text-decoration: none;
+    outline: none;
+     margin: 10px;
+}
+
+#inputBox:focus{
+    border: none;
+    text-decoration: none;
+   outline: none;
+
+}
+
+.filteredDropDown{
+    border:1px solid rgb(97, 97, 97);
+    text-align: left;
+    border-radius: 4px;
+    margin-top: 10px;
+
+}
+
+.selectedItemButton {
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase
+}
+.selectedItemButton:hover {
+    color: red;
+    border: none;
+    background-color: lightcoral;
+    text-transform: uppercase
+}
+
+.selectedItems {
+    display: inline;
+    background-color: lightgrey;
+    border-radius: 2px;
+    margin: auto 5px;
+}
+
+.selectedItems span{
+    padding: 3px;
+}
+.inputContainer{
+    position: relative;
+    display: flex;
+    justify-items: flex-start;
+    border: 2px solid grey;
+    border-radius: 4px;
+
+}
+.inputContainerHighlighted{
+    border: 2px solid royalblue;
+
+}
+
+.listedItems{
+    padding: 10px;
+}
+
+
+.listedItems:hover {
+    background-color: lightblue;
+  }
+  
+  .clearAllButton{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border: none;
+   align-content: flex-end;
+   justify-content: flex-end;
+  }
+  .clearAllButton:hover{
+    background-color: lightcoral;
+    color: red;
+  }
